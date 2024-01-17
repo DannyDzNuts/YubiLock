@@ -114,7 +114,7 @@ def detect_usb_changes():
                     for line in lines:
                         print(line)
 
-                    # LockWorkStation()
+                    LockWorkStation()
                     last_removal_time = current_time
 
     except Exception as e:
